@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activities.HomeActivity"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:contextClickable="true"
+    android:background="@color/tabContentBackground">
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:padding="16dp"
+            android:orientation="horizontal"
+            android:stretchColumns="0"
+            android:layout_alignParentTop="true"
+            android:id="@+id/pagerContent"
+            style="@style/AppHeaderTheme">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_activity_home"
+                    style="@style/AppHeaderTheme"
+                    android:layout_column="0"/>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_column="1"
+                    android:orientation="horizontal"
+                    android:gravity="end|right">
+
+                    <Button
+                        android:id="@+id/mic_button"
+                        style="?android:borderlessButtonStyle"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_button"
+                        android:textColor="@color/foreground_button"
+                        android:textSize="12pt"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/logout_button"
+                        style="?android:borderlessButtonStyle"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_button"
+                        android:textColor="@color/foreground_button"
+                        android:textSize="12pt"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:clickable="true"
+            android:fillViewport="false"
+            app:tabBackground="@color/tabColor"
+            app:tabIndicatorColor="@color/tabIndicationColor"
+            app:tabIndicatorHeight="4dp"
+            app:tabMode="scrollable"
+            android:textSize="6pt"
+            android:layout_below="@+id/pagerContent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tab_layout"
+            android:background="@color/tabContentBackground"
+            android:layout_above="@+id/dashboard_history_pay" />
+
+
+       <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/app_powered_by"
+            android:textColor="@color/background_login_activity"
+            android:gravity="center|center_vertical"
+            android:id="@+id/powered_by2"
+            android:textSize="@dimen/powered_by_font_size"
+            android:background="@color/background_button"
+            android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

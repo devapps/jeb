@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activities.SignupActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:stretchColumns="0"
+        android:layout_alignParentTop="true"
+        android:id="@+id/signupHeader"
+        style="@style/AppHeaderTheme">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_home"
+                style="@style/AppHeaderTheme"
+                android:layout_column="0"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutSignupProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/signupProgress"
+            style="?android:attr/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </ProgressBar>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signupHeader"
+        android:scrollbarStyle="insideInset"
+        android:id="@+id/scrollViewSignup">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|top"
+            android:padding="11dp"
+            android:orientation="vertical"
+            android:background="@color/colorContentBackground">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/input_border"
+                android:layout_height="@dimen/input_height"
+                android:paddingTop="@dimen/input_spacing"
+                android:paddingLeft="@dimen/input_spacing"
+                android:paddingRight="@dimen/input_spacing_small"
+                android:paddingBottom="@dimen/input_spacing_small"
+                android:elevation="@dimen/input_elevation"
+                android:layout_marginBottom="@dimen/vertical_spacing">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:id="@+id/signup_first_name"
+                    android:hint="@string/signup_first_name"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/input_border"
+                android:layout_height="@dimen/input_height"
+                android:paddingTop="@dimen/input_spacing"
+                android:paddingLeft="@dimen/input_spacing"
+                android:paddingRight="@dimen/input_spacing_small"
+                android:paddingBottom="@dimen/input_spacing_small"
+                android:elevation="@dimen/input_elevation"
+                android:layout_marginBottom="@dimen/vertical_spacing">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:id="@+id/signup_last_name"
+                    android:hint="@string/signup_last_name"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/input_border"
+                android:layout_height="@dimen/input_height"
+                android:paddingTop="@dimen/input_spacing"
+                android:paddingLeft="@dimen/input_spacing"
+                android:paddingRight="@dimen/input_spacing_small"
+                android:paddingBottom="@dimen/input_spacing_small"
+                android:elevation="@dimen/input_elevation"
+                android:layout_marginBottom="@dimen/vertical_spacing">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:id="@+id/signup_username"
+                    android:hint="@string/signup_username"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/input_border"
+                android:layout_height="@dimen/input_height"
+                android:paddingTop="@dimen/input_spacing"
+                android:paddingLeft="@dimen/input_spacing"
+                android:paddingRight="@dimen/input_spacing_small"
+                android:paddingBottom="@dimen/input_spacing_small"
+                android:elevation="@dimen/input_elevation"
+                android:layout_marginBottom="@dimen/vertical_spacing">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeActionLabel="@string/action_sign_in_short"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPassword"
+                    android:id="@+id/signup_password"
+                    android:hint="@string/signup_password"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/input_border"
+                android:layout_height="@dimen/input_height"
+                android:paddingTop="@dimen/input_spacing"
+                android:paddingLeft="@dimen/input_spacing"
+                android:paddingRight="@dimen/input_spacing_small"
+                android:paddingBottom="@dimen/input_spacing_small"
+                android:elevation="@dimen/input_elevation"
+                android:layout_marginBottom="@dimen/vertical_spacing">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeActionLabel="@string/action_sign_in_short"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPassword"
+                    android:id="@+id/signup_confirm_password"
+                    android:hint="@string/signup_confirm_password"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/input_border"
+                android:layout_height="@dimen/input_height"
+                android:paddingTop="@dimen/input_spacing"
+                android:paddingLeft="@dimen/input_spacing"
+                android:paddingRight="@dimen/input_spacing_small"
+                android:paddingBottom="@dimen/input_spacing_small"
+                android:elevation="@dimen/input_elevation"
+                android:layout_marginBottom="@dimen/vertical_spacing">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:id="@+id/signup_mobile_no"
+                    android:hint="@string/signup_mobile_no"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/input_border"
+                android:layout_height="@dimen/input_height"
+                android:paddingTop="@dimen/input_spacing"
+                android:paddingLeft="@dimen/input_spacing"
+                android:paddingRight="@dimen/input_spacing_small"
+                android:paddingBottom="@dimen/input_spacing_small"
+                android:elevation="@dimen/input_elevation"
+                android:layout_marginBottom="@dimen/vertical_spacing">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:id="@+id/signup_aadhar_no"
+                    android:hint="@string/signup_aadhar_no"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:background="@color/colorContentBackground"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/proceed_button"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="50sp"
+                    android:text="@string/button_signup"
+                    android:background="@color/background_button"
+                    android:textColor="@color/foreground_button"
+                    android:textStyle="bold" />
+
+                <View android:layout_height="@dimen/vertical_spacing"
+                    android:layout_width="@dimen/horizontal_spacing"
+                    android:background="@color/colorContentBackground"/>
+
+                <Button
+                    android:id="@+id/cancel_button"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pay_cancel"
+                    android:background="@color/background_button"
+                    android:textColor="@color/foreground_button"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

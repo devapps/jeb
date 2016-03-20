@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-23.2.0_b2651ee36332026541927d29d14c6e8714fcc05d.jar" />
+    </item>
+    <item
+        jar="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/pre-dexed/release/internal_impl-23.2.0_f3cc21c6b6cee7a578fcd6458cbefd84b82ebce0.jar" />
+    </item>
+    <item
+        jar="/Users/amishra/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/pre-dexed/release/support-annotations-23.2.0_2f3cb3802251c472c08b36189c1693f84c84f3b1.jar" />
+    </item>
+    <item
+        jar="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-23.2.0_e5af806c1c2d1ce02755481685b90ce3f564f8a1.jar" />
+    </item>
+    <item
+        jar="/Users/amishra/AndroidStudioProjects/upi/secure-component-sdk/secure-component-sdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cc4fadd3cab91e547adf9298161609c93f8ded20">
+        <dex dex="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/pre-dexed/release/secure-component-sdk_680a029167691269a7423cd8d7d56b778b5a5433.jar" />
+    </item>
+    <item
+        jar="/Users/amishra/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/1.7.2/112366d8158749e25532ebce162232c6e0fb20a5/gson-1.7.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="112366d8158749e25532ebce162232c6e0fb20a5">
+        <dex dex="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/pre-dexed/release/gson-1.7.2_78c3870e21b76dc6526c6476073e51a4d030b832.jar" />
+    </item>
+    <item
+        jar="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.2.0_07f421debd0af2d2cbfae6adcb01c66c556c5eb0.jar" />
+    </item>
+    <item
+        jar="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/pre-dexed/release/com.android.support-design-23.2.0_3f384577a365b741bd8f8066fa7016cd347e70ba.jar" />
+    </item>
+    <item
+        jar="/Users/amishra/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/b31526a230871fbe285fbcbe2813f9c0839ae9b0/httpcore-4.4.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b31526a230871fbe285fbcbe2813f9c0839ae9b0">
+        <dex dex="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/pre-dexed/release/httpcore-4.4.4_91108cee8dfdbaab785db4e2dbba2c957ec9e3a5.jar" />
+    </item>
+    <item
+        jar="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.2.0_ff8e23146f09793b968730a93363cffa851b2016.jar" />
+    </item>
+    <item
+        jar="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/upi/SecureComponent-release/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="862f21c3c515eacd0af5ea47e1f81cdcb137b31f">
+        <dex dex="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/pre-dexed/release/upi-SecureComponent-release-unspecified_abd8819efee619647bf4fa5f69ff631dbda77356.jar" />
+    </item>
+    <item
+        jar="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-23.2.0_705e6dd9f86df8fe8dfefbfc55d8ff0ae405c65e.jar" />
+    </item>
+
+</items>

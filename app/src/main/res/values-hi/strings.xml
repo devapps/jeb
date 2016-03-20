@@ -1,0 +1,154 @@
+<resources>
+
+    <string name="app_name">जेब</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="app_powered_by">VSoft द्वारा संचालित</string>
+    <!-- Login Activity  -->
+    <string name="title_activity_login">लॉगिन</string>
+    <string name="prompt_username">उपयोगकर्ता का नाम</string>
+    <string name="prompt_password">पासवर्ड</string>
+    <string name="label_username">उपयोगकर्ता का नाम</string>
+    <string name="label_password">पासवर्ड</string>
+    <string name="button_login">लॉगिन</string>
+    <string name="button_signup">रजिस्ट्रेशन करें</string>
+    <string name="button_forgot_password">पासवर्ड भूल गए?
+    </string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in">साइन इन या रजिस्टर करें</string>
+    <string name="action_sign_in_short">साइन इन</string>
+    <string name="error_invalid_email">उपयोगकर्ता नाम का अवैध है</string>
+    <string name="error_invalid_password">यह पासवर्ड बहुत छोटा है</string>
+    <string name="error_incorrect_password">यह पासवर्ड गलत है</string>
+    <string name="error_field_required">यह फ़ील्ड आवश्यक है</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email completions.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_home">जेब</string>
+
+    <string name="logout">लोग आउट</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_pay">भुगतान करें</string>
+    <string name="dashboard_collect">वसूल करें</string>
+    <string name="dashboard_history">लेन देन</string>
+    <string name="dashboard_approval">स्वीकृत करें</string>
+    <string name="dashboard_summary">आज का सारांश</string>
+    <string name="account_summary">खाता सारांश</string>
+
+    <string name="dashboard_summary_pay">भुगतान</string>
+    <string name="dashboard_summary_collect">संग्रह</string>
+
+    <!-- Tabs -->
+    <string name="tab_dashboard">डैशबोर्ड</string>
+    <string name="tab_pay">भुगतान करें</string>
+    <string name="tab_collect">वसूल करें</string>
+    <string name="tab_history">लेन देन</string>
+    <string name="tab_approval">वीकृत करें</string>
+    <string name="tab_more">विकल्प</string>
+
+
+    <!-- Signup -->
+    <string name="signup_first_name">नाम</string>
+    <string name="signup_last_name">उपनाम</string>
+    <string name="signup_username">उपयोगकता का नाम</string>
+    <string name="signup_password">पासवर्ड</string>
+    <string name="signup_confirm_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="signup_mobile_no">मोबाइल</string>
+    <string name="signup_aadhar_no">आधार</string>
+
+    <!-- Payment / Collect -->
+    <string name="pay_from0">-- खाते का चयन करें --</string>
+    <string name="pay_from1">XXXXXX3254</string>
+    <string name="pay_from2">XXXXXX2233</string>
+    <string name="pay_amount">राशि</string>
+    <string name="pay_purpose">उद्देश्य</string>
+    <string name="pay_payee_name">प्राप्तकर्ता का नाम</string>
+    <string name="pay_to_addr">पाने वाला</string>
+    <string name="coll_from_addr">देने वाला</string>
+    <string name="addr_hint_underline">वर्चुअल पता / मोबाइल / आधार</string>
+    <string name="pay_to_addr0">-- भुगतान का माध्यम --</string>
+    <string name="pay_to_addr1">वर्चुअल पता</string>
+    <string name="pay_to_addr2">मोबाइल</string>
+    <string name="pay_to_addr3">आधार</string>
+    <string name="pay_payee_acctype">Payee Account Type</string>
+    <string name="pay_payee_acctype_savings">बचत खाता</string>
+    <string name="pay_payee_acctype_current">चालू खाता</string>
+    <string name="pay_cancel">रद्द करें</string>
+    <string name="pay_proceed">आगे बढ़ें</string>
+
+
+    <!-- Collect -->
+    <string name="collect_to_prompt"> -- खाते का चयन करें -- </string>
+    <string name="collect_to">amishra@vsoftnerds</string>
+    <string name="collect_amount">राशि</string>
+    <string name="collect_purpose">उद्देश्य</string>
+    <string name="collect_payee_name">भुगतानकर्ता का नाम</string>
+    <string name="collect_to_addr">भुगतानकर्ता का वर्चुअल पता</string>
+    <string name="collect_cancel">रद्द करें</string>
+    <string name="collect_proceed">आगे बढ़ें</string>
+    <string name="title_activity_signup">SignupActivity</string>
+
+
+    <!-- History -->
+    <string name="historyEntryHeading1">मोबाइल : 9956273333</string>
+    <string name="historyEntryAmount1">₹800</string>
+
+    <string name="historyEntryHeading1_1">मोबाइल : 8876233322</string>
+    <string name="historyEntryAmount1_1">₹700</string>
+
+    <string name="historyEntryHeading2">आधार : 1234 2733 8752</string>
+    <string name="historyEntryAmount2">₹400</string>
+
+    <string name="historyEntryHeading2_2">आधार : 1234 2733 8752</string>
+    <string name="historyEntryAmount2_2">₹560</string>
+
+    <string name="historyEntryHeading3">मोबाइल : 8876233322</string>
+    <string name="historyEntryAmount3">₹250</string>
+
+    <string name="historyEntryHeading3_3">मोबाइल : 9956273333</string>
+    <string name="historyEntryAmount3_3">₹200</string>
+
+
+    <!-- Transaction Result -->
+    <string name="transactionId">ट्रांसेक्शन आईडी :</string>
+    <string name="transactionIdValue">1268892201</string>
+    <string name="status">स्थिति :</string>
+    <string name="statusValue">सफलतापूर्वक पूर्ण हुआ</string>
+    <string name="continueButton">आगे बढ़ें</string>
+
+    <!-- Approve -->
+    <string name="approveEntryHeading1">XYZ Chemicals</string>
+    <string name="approveEntrySubHeading1">उद्देश्य: खाद</string>
+    <string name="approveEntryAmount1">₹1000</string>
+    <string name="approveButton">स्वीकृत करें</string>
+    <string name="rejectButton">खारिज करें</string>
+
+    <!-- More -->
+    <string name="languageSelection">Select Language</string>
+    <string name="language1">English</string>
+    <string name="language2">हिंदी</string>
+
+
+    <string name="title_activity_pay">PayActivity</string>
+    <!-- General Configurations -->
+    <string name="url_list_keys_service">http://103.14.161.149:12001/UpiService/upi/listKeysService</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="collect_to1">XXXXXX5650</string>
+    <string name="collect_to2">xyzchemicals@mybank</string>
+    <!-- History -->
+    <string name="historyEntrySubHeading1">17/03/2016 @ 04:15 PM</string>
+    <string name="historyEntrySubHeading1_1">17/03/2016 @ 01:27 PM</string>
+    <string name="historyEntrySubHeading2">17/03/2016 @ 09:10 AM</string>
+    <string name="historyEntrySubHeading2_2">16/03/2016 @ 05:30 PM</string>
+    <string name="historyEntrySubHeading3">15/03/2016 @ 10:00 AM</string>
+    <string name="historyEntrySubHeading3_3">15/03/2016 @ 12:05 PM</string>
+    <string name="language">Language</string>
+    <string name="language_en">English</string>
+    <string name="language_hi">हिंदी</string>
+    <string name="language3">తెలుగు</string>
+    <string name="language4">ଓଡ଼ିଆ</string>
+
+</resources>

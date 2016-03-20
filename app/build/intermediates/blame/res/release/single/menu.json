@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/res/merged/release/menu/menu_home.xml",
+        "source": "/Users/amishra/AndroidStudioProjects/upi/app/src/main/res/menu/menu_home.xml"
+    },
+    {
+        "merged": "/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/res/merged/release/menu/menu_main.xml",
+        "source": "/Users/amishra/AndroidStudioProjects/upi/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/res/merged/release/menu/menu_pin_activity_component.xml",
+        "source": "/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/upi/SecureComponent-release/unspecified/res/menu/menu_pin_activity_component.xml"
+    }
+]

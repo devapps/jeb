@@ -1,0 +1,178 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ApprovalFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideInset"
+        android:id="@+id/scrollViewCollectFragment">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="0,1">
+
+            <!-- Approval Entry 1 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/historyGridItemPrimaryColor"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left|top"
+                    android:orientation="vertical"
+                    android:layout_column="0">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/approveEntryHeading1"
+                        android:textSize="@dimen/approve_grid_item_heading_font_size"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/approveEntrySubHeading1"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/approve_grid_item_heading_font_size"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="₹1000"
+                    android:layout_column="1"
+                    android:layout_gravity="start|right"
+                    android:textSize="@dimen/approve_grid_item_heading_amount_font_size"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/historyGridItemPrimaryColor">
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorContentBackground"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_span="2">
+
+                    <Button
+                        android:id="@+id/approve_button1"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="50sp"
+                        android:text="@string/approveButton"
+                        android:background="@color/colorPrimaryDark"
+                        android:textColor="@color/foreground_button"
+                        android:textStyle="bold" />
+
+                    <View android:layout_height="@dimen/vertical_spacing"
+                        android:layout_width="@dimen/horizontal_spacing"
+                        android:background="@color/colorContentBackground"/>
+
+                    <Button
+                        android:id="@+id/reject_button1"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rejectButton"
+                        android:background="@color/dashboardAmountColorFailure"
+                        android:textColor="@color/foreground_button"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </TableRow>
+
+
+            <!-- Approval Entry 2 -->
+            <!--
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/historyGridItemAlternateColor"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left|top"
+                    android:orientation="vertical"
+                    android:layout_column="0">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/historyEntryHeading2"
+                        android:textSize="@dimen/approve_grid_item_heading_font_size"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="₹1000"
+                    android:layout_column="1"
+                    android:layout_gravity="start|right"
+                    android:textSize="@dimen/approve_grid_item_heading_amount_font_size"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/historyGridItemAlternateColor">
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorContentBackground"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_span="2">
+
+                    <Button
+                        android:id="@+id/approve_button2"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="50sp"
+                        android:text="@string/approveButton"
+                        android:background="@color/colorPrimaryDark"
+                        android:textColor="@color/foreground_button"
+                        android:textStyle="bold" />
+
+                    <View android:layout_height="@dimen/vertical_spacing"
+                        android:layout_width="@dimen/horizontal_spacing"
+                        android:background="@color/colorContentBackground"/>
+
+                    <Button
+                        android:id="@+id/reject_button2"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rejectButton"
+                        android:background="@color/dashboardAmountColorFailure"
+                        android:textColor="@color/foreground_button"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </TableRow> -->
+
+
+        </TableLayout>
+    </ScrollView>
+
+</FrameLayout>

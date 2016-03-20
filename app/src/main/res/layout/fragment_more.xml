@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.MoreFragment"
+    android:padding="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/dashboard_summary_font_size"
+        android:text="@string/languageSelection" />
+      -->
+    <Spinner
+        android:id="@+id/languageSelection"
+        android:spinnerMode="dialog"
+        android:background="@drawable/spinner_border"
+        android:layout_height="@dimen/input_height"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/input_spacing"
+        android:paddingLeft="@dimen/input_spacing"
+        android:paddingRight="@dimen/input_spacing_small"
+        android:paddingBottom="@dimen/input_spacing_small"
+        android:elevation="4dp"
+        android:textSize="@dimen/dashboard_summary_font_size"
+        android:layout_marginBottom="@dimen/vertical_spacing">
+    </Spinner>
+
+</LinearLayout>

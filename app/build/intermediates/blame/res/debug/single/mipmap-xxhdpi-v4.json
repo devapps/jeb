@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/amishra/AndroidStudioProjects/upi/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/icon_english.png",
+        "source": "/Users/amishra/AndroidStudioProjects/upi/app/src/main/res/mipmap-xxhdpi/icon_english.png"
+    }
+]

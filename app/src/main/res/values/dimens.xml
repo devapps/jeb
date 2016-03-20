@@ -1,0 +1,44 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="vertical_spacing">8dp</dimen>
+    <dimen name="horizontal_spacing">8dp</dimen>
+
+    <dimen name="input_spacing">5dp</dimen>
+    <dimen name="input_spacing_small">0dp</dimen>
+
+    <dimen name="input_height">60dp</dimen>
+    <dimen name="input_layer_height">60dp</dimen>
+
+    <dimen name="spinner_elevation">1dp</dimen>
+    <dimen name="input_elevation">0dp</dimen>
+    <dimen name="input_padding_left">0dp</dimen>
+
+    <dimen name="grid_spacing">7dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="dashboard_button_height">110dp</dimen>
+    <dimen name="dashboard_summary_font_size">18dp</dimen>
+    <dimen name="dashboard_summary_item_size">70dp</dimen>
+    <dimen name="dashboard_text_font_size">14dp</dimen>
+    <dimen name="dashboard_button_icon_height">75dp</dimen>
+    <dimen name="dashboard_button_text_height">35dp</dimen>
+
+    <dimen name="dashboard_button_font_size">60dp</dimen>
+
+    <dimen name="spinner_margin_left">10dp</dimen>
+
+    <dimen name="history_grid_item_heading_font_size">8pt</dimen>
+    <dimen name="history_grid_item_secondary_font_size">10pt</dimen>
+    <dimen name="history_grid_item_icon_font_size">15pt</dimen>
+    <dimen name="history_grid_item_internal_spacing">14dp</dimen>
+
+    <dimen name="approve_grid_item_heading_font_size">19dp</dimen>
+    <dimen name="approve_grid_item_heading_amount_font_size">22dp</dimen>
+
+    <dimen name="powered_by_font_size">6pt</dimen>
+
+
+</resources>

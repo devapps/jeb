@@ -1,0 +1,157 @@
+<resources>
+
+    <string name="app_name">Jeb</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pay">PayActivity</string>
+    <string name="app_powered_by">Powered By VSoft</string>
+
+    <!-- General Configurations -->
+    <string name="url_list_keys_service">http://103.14.161.149:12001/UpiService/upi/listKeysService</string>
+
+
+    <!-- Login Activity  -->
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="button_login">LogIn</string>
+    <string name="button_signup">Sign Up</string>
+    <string name="button_forgot_password">Forgot Password ?</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">jeb</string>
+
+    <string name="logout">Logout</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_pay">PAY</string>
+    <string name="dashboard_collect">COLLECT</string>
+    <string name="dashboard_history">HISTORY</string>
+    <string name="dashboard_approval">APPROVE</string>
+    <string name="dashboard_summary">Today\'s Summary</string>
+
+    <string name="account_summary">Account Summary</string>
+
+    <string name="dashboard_summary_pay">Payments</string>
+    <string name="dashboard_summary_collect">Collections</string>
+
+    <!-- Tabs -->
+    <string name="tab_dashboard">Dashboard</string>
+    <string name="tab_pay">Pay</string>
+    <string name="tab_collect">Collect</string>
+    <string name="tab_history">History</string>
+    <string name="tab_approval">Approval</string>
+    <string name="tab_more">Language</string>
+
+
+    <!-- Signup -->
+    <string name="signup_first_name">First Name</string>
+    <string name="signup_last_name">Last Name</string>
+    <string name="signup_username">Username</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_confirm_password">Confirm Password</string>
+    <string name="signup_mobile_no">Mobile No</string>
+    <string name="signup_aadhar_no">Aadhar No.</string>
+
+    <!-- Payment / Collect -->
+    <string name="pay_from0">-- Select Account --</string>
+    <string name="pay_from1">XXXXXX3254</string>
+    <string name="pay_from2">ramu@mybank</string>
+    <string name="pay_amount">Amount</string>
+    <string name="pay_purpose">Purpose</string>
+    <string name="pay_payee_name">Payee Name</string>
+    <string name="pay_to_addr">Pay To</string>
+    <string name="coll_from_addr">Collect From</string>
+    <string name="addr_hint_underline">Virtual Address / Mobile No / Aadhar No</string>
+    <string name="pay_to_addr0">-- Pay Via --</string>
+    <string name="pay_to_addr1">Virtual Address</string>
+    <string name="pay_to_addr2">Mobile Number</string>
+    <string name="pay_to_addr3">Aadhar Number</string>
+    <string name="pay_payee_acctype">Payee Account Type</string>
+    <string name="pay_payee_acctype_savings">Savings</string>
+    <string name="pay_payee_acctype_current">Current</string>
+    <string name="pay_cancel">Cancel</string>
+    <string name="pay_proceed">Proceed</string>
+
+
+    <!-- Collect -->
+    <string name="collect_to">amishra@vsoftnerds</string>
+    <string name="collect_to_prompt"> -- Select Account -- </string>
+    <string name="collect_to1">XXXXXX5650</string>
+    <string name="collect_to2">xyzchemicals@mybank</string>
+    <string name="collect_amount">Amount</string>
+    <string name="collect_purpose">Remarks</string>
+    <string name="collect_payee_name">Payer Name</string>
+    <string name="collect_to_addr">Payer Virtual Address</string>
+    <string name="collect_cancel">Cancel</string>
+    <string name="collect_proceed">Proceed</string>
+    <string name="title_activity_signup">SignupActivity</string>
+
+
+    <!-- History -->
+    <string name="historyEntryHeading1">Mobile : 9956273333</string>
+    <string name="historyEntrySubHeading1">17/03/2016 @ 04:15 PM</string>
+    <string name="historyEntryAmount1">₹800</string>
+
+    <string name="historyEntryHeading1_1">Mobile : 8876233322</string>
+    <string name="historyEntrySubHeading1_1">17/03/2016 @ 01:27 PM</string>
+    <string name="historyEntryAmount1_1">₹700</string>
+
+    <string name="historyEntryHeading2">Aadhar : 1234 2733 8752</string>
+    <string name="historyEntrySubHeading2">17/03/2016 @ 09:10 AM</string>
+    <string name="historyEntryAmount2">₹400</string>
+
+    <string name="historyEntryHeading2_2">Aadhar : 1234 2733 8752</string>
+    <string name="historyEntrySubHeading2_2">16/03/2016 @ 05:30 PM</string>
+    <string name="historyEntryAmount2_2">₹560</string>
+
+    <string name="historyEntryHeading3">Mobile : 8876233322</string>
+    <string name="historyEntrySubHeading3">15/03/2016 @ 10:00 AM</string>
+    <string name="historyEntryAmount3">₹250</string>
+
+    <string name="historyEntryHeading3_3">Mobile : 9956273333</string>
+    <string name="historyEntrySubHeading3_3">15/03/2016 @ 12:05 PM</string>
+    <string name="historyEntryAmount3_3">₹200</string>
+
+
+    <!-- Transaction Result -->
+    <string name="transactionId">Transaction Id :</string>
+    <string name="transactionIdValue">1268892201</string>
+    <string name="status">Status :</string>
+    <string name="statusValue">Success</string>
+    <string name="continueButton">Continue</string>
+
+    <!-- Approve -->
+    <string name="approveEntryHeading1">XYZ Chemicals</string>
+    <string name="approveEntrySubHeading1">Purpose: Fertilizer</string>
+    <string name="approveEntryAmount1">₹1000</string>
+    <string name="approveButton">Approve</string>
+    <string name="rejectButton">Reject</string>
+
+    <!-- More -->
+    <string name="language">Language</string>
+    <string name="language_en">English</string>
+    <string name="language_hi">हिंदी</string>
+    <string name="language1">English</string>
+    <string name="language2">हिंदी</string>
+    <string name="language3">తెలుగు</string>
+    <string name="language4">ଓଡ଼ିଆ</string>
+    <string name="languageSelection">Select Language</string>
+
+</resources>

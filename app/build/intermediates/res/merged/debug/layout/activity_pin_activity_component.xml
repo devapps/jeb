@@ -1,0 +1,6 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment"
+    android:name="org.npci.upi.security.pinactivitycomponent.PinActivityComponentFragment"
+    tools:layout="@layout/fragment_pin_activity_component" android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<!-- From: file:/D:/Projects/AndroidStudioProjects/UPP_20151126/npci-upi/commonLibrary/CommonsApp/SecureComponent/src/main/res/layout/activity_pin_activity_component.xml -->

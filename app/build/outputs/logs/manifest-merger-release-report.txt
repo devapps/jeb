@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:6:5-70
+	android:name
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:8:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:9:5-72
+	android:name
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:9:22-70
+uses-permission#android.permission.INTERNET
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:10:22-64
+application
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:12:5-48:19
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [upi:SecureComponent-release:unspecified] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/upi/SecureComponent-release/unspecified/AndroidManifest.xml:13:5-20:19
+	android:label
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:15:9-41
+	android:supportsRtl
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:16:9-35
+	android:allowBackup
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:14:9-43
+	android:theme
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:17:9-40
+activity#org.vsoft.omni.upi.activities.LoginActivity
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:screenOrientation
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:20:13-49
+	android:exported
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:19:13-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:24:27-74
+activity#org.vsoft.omni.upi.activities.HomeActivity
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:27:9-46:20
+	android:configChanges
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:29:13-43
+	android:name
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:28:13-52
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:30:13-45:29
+action#android.intent.action.VIEW
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:33:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:34:17-78
+	android:name
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:34:27-75
+data
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:36:17-38:44
+	android:host
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:37:21-39
+	android:scheme
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:38:21-41
+activity#org.vsoft.omni.upi.activities.SignupActivity
+ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:47:9-72
+	android:name
+		ADDED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml:47:19-60
+uses-sdk
+INJECTED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [upi:SecureComponent-release:unspecified] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/upi/SecureComponent-release/unspecified/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.2.0] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/amishra/AndroidStudioProjects/upi/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [upi:SecureComponent-release:unspecified] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/upi/SecureComponent-release/unspecified/AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from [upi:SecureComponent-release:unspecified] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/upi/SecureComponent-release/unspecified/AndroidManifest.xml:11:22-72
+activity#org.npci.upi.security.pinactivitycomponent.PinActivityComponent
+ADDED from [upi:SecureComponent-release:unspecified] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/upi/SecureComponent-release/unspecified/AndroidManifest.xml:16:9-19:20
+	android:label
+		ADDED from [upi:SecureComponent-release:unspecified] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/upi/SecureComponent-release/unspecified/AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from [upi:SecureComponent-release:unspecified] /Users/amishra/AndroidStudioProjects/upi/app/build/intermediates/exploded-aar/upi/SecureComponent-release/unspecified/AndroidManifest.xml:17:13-91

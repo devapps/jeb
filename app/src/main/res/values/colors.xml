@@ -1,0 +1,44 @@
+<resources>
+
+    <color name="background_login_activity">#FFFFFF</color>
+
+    <color name="titlebar_text_color">#FFFFFF</color>
+
+    <color name="background_input">#FFFFDA</color>
+    <color name="foreground_input">#000000</color>
+
+    <color name="background_button">#357EC7</color>
+    <color name="foreground_button">#FFFFFF</color>
+
+    <!-- <color name="colorContentBackground">#A2E4FF</color> -->
+    <color name="colorContentBackground">#EFEEEC</color>
+    <color name="colorContentForeground">#000000</color>
+
+    <color name="colorTextBackground">#EFEEEC</color>
+    <color name="colorTextForeground">#000000</color>
+
+    <color name="colorPrimaryDark">#357EC7</color>
+    <color name="colorPrimary">#488AC7</color>
+
+    <color name="tabIndicationColor">#82CAFF</color>
+    <color name="tabColor">#488AC7</color>
+    <color name="tabContentBackground">#F5F5ED</color>
+
+    <color name="gridHeaderBackground">#488AC7</color>
+    <color name="gridHeaderForeground">#FFFFFF</color>
+    <color name="gridContentBackground">#E5E4E2</color>
+    <color name="gridLineColor">#D1D0CE</color>
+
+    <color name="iconButtonBackground">#EFEEEC</color>
+    <color name="iconButtonForeground">#000000</color>
+
+    <color name="dashboardButtonBackground">#000000</color>
+    <color name="dashboardButtonForeground">#FFFFFF</color>
+    <color name="dashboardAmountColorSuccess">#3EA055</color>
+    <color name="dashboardAmountColorPending">#FBB117</color>
+    <color name="dashboardAmountColorFailure">#FF0000</color>
+
+    <color name="historyGridItemPrimaryColor">#F5F5DC</color>
+    <color name="historyGridItemAlternateColor">#FFFFF0</color>
+
+</resources>

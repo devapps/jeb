@@ -1,0 +1,325 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HistoryFragment"
+    android:background="@color/colorContentBackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideInset"
+        android:id="@+id/scrollViewCollectFragment">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="0,1,2">
+
+                <!-- History Entry 1 -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/historyGridItemPrimaryColor"
+                    android:padding="9dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/pay1"
+                        android:textColor="@color/iconButtonForeground"
+                        android:textSize="@dimen/history_grid_item_icon_font_size"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="left|top"
+                        android:orientation="vertical"
+                        android:layout_column="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/historyEntryHeading1"
+                            android:textSize="@dimen/history_grid_item_heading_font_size"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/historyEntrySubHeading1"
+                            android:textStyle="normal"
+                            android:textSize="@dimen/history_grid_item_heading_font_size"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/historyEntryAmount1"
+                        android:layout_column="2"
+                        android:layout_gravity="start|right"
+                        android:textColor="@color/dashboardAmountColorSuccess"
+                        android:textSize="@dimen/history_grid_item_secondary_font_size"/>
+
+                </TableRow>
+
+
+                <!-- History Entry 1 : collect -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/historyGridItemAlternateColor"
+                    android:padding="9dp">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/collect1"
+                        android:textColor="@color/iconButtonForeground"
+                        android:textSize="@dimen/history_grid_item_icon_font_size"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="left|top"
+                        android:orientation="vertical"
+                        android:layout_column="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/historyEntryHeading1_1"
+                            android:textSize="@dimen/history_grid_item_heading_font_size"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/historyEntrySubHeading1_1"
+                            android:textStyle="normal"
+                            android:textSize="@dimen/history_grid_item_heading_font_size"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/historyEntryAmount1_1"
+                        android:layout_column="2"
+                        android:layout_gravity="start|right"
+                        android:textColor="@color/dashboardAmountColorFailure"
+                        android:textSize="@dimen/history_grid_item_secondary_font_size"/>
+
+                </TableRow>
+
+
+                <!-- History Entry 2 -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/historyGridItemPrimaryColor"
+                    android:padding="9dp">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/pay2"
+                        android:textColor="@color/iconButtonForeground"
+                        android:textSize="@dimen/history_grid_item_icon_font_size"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="left|top"
+                        android:orientation="vertical"
+                        android:layout_column="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/historyEntryHeading2"
+                            android:textSize="@dimen/history_grid_item_heading_font_size"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/historyEntrySubHeading2"
+                            android:textStyle="normal"
+                            android:textSize="@dimen/history_grid_item_heading_font_size"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/historyEntryAmount2"
+                        android:layout_column="2"
+                        android:layout_gravity="start|right"
+                        android:textColor="@color/dashboardAmountColorPending"
+                        android:textSize="@dimen/history_grid_item_secondary_font_size"/>
+
+                </TableRow>
+
+
+                <!-- History Entry 2 : collect -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/historyGridItemAlternateColor"
+                    android:padding="9dp">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/collect2"
+                        android:textColor="@color/iconButtonForeground"
+                        android:textSize="@dimen/history_grid_item_icon_font_size"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="left|top"
+                        android:orientation="vertical"
+                        android:layout_column="1">
+
+                        <TextView
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/historyEntryHeading2_2"
+                            android:textSize="@dimen/history_grid_item_heading_font_size"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/historyEntrySubHeading2_2"
+                            android:textStyle="normal"
+                            android:textSize="@dimen/history_grid_item_heading_font_size"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/historyEntryAmount2_2"
+                        android:layout_column="2"
+                        android:layout_gravity="start|right"
+                        android:textColor="@color/dashboardAmountColorSuccess"
+                        android:textSize="@dimen/history_grid_item_secondary_font_size"/>
+
+                </TableRow>
+
+
+
+                <!-- History Entry 3 -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/historyGridItemPrimaryColor"
+                    android:padding="9dp">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/pay3"
+                        android:textColor="@color/iconButtonForeground"
+                        android:textSize="@dimen/history_grid_item_icon_font_size"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="left|top"
+                        android:orientation="vertical"
+                        android:layout_column="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/historyEntryHeading3"
+                            android:textSize="@dimen/history_grid_item_heading_font_size"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/historyEntrySubHeading3"
+                            android:textStyle="normal"
+                            android:textSize="@dimen/history_grid_item_heading_font_size"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/historyEntryAmount3"
+                        android:layout_column="2"
+                        android:layout_gravity="start|right"
+                        android:textColor="@color/dashboardAmountColorFailure"
+                        android:textSize="@dimen/history_grid_item_secondary_font_size"/>
+
+                </TableRow>
+
+
+                <!-- History Entry 3: collect -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/historyGridItemAlternateColor"
+                    android:padding="9dp">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/collect3"
+                        android:textColor="@color/iconButtonForeground"
+                        android:textSize="@dimen/history_grid_item_icon_font_size"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="left|top"
+                        android:orientation="vertical"
+                        android:layout_column="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/historyEntryHeading3_3"
+                            android:textSize="@dimen/history_grid_item_heading_font_size"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/historyEntrySubHeading3_3"
+                            android:textStyle="normal"
+                            android:textSize="@dimen/history_grid_item_heading_font_size"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/historyEntryAmount3_3"
+                        android:layout_column="2"
+                        android:layout_gravity="start|right"
+                        android:textColor="@color/dashboardAmountColorPending"
+                        android:textSize="@dimen/history_grid_item_secondary_font_size"/>
+
+                </TableRow>
+
+
+            </TableLayout>
+
+    </ScrollView>
+
+</FrameLayout>

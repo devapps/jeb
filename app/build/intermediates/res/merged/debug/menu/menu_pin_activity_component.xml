@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".PinActivityComponent">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
+<!-- From: file:/D:/Projects/AndroidStudioProjects/UPP_20151126/npci-upi/commonLibrary/CommonsApp/SecureComponent/src/main/res/menu/menu_pin_activity_component.xml -->
