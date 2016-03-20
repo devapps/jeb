@@ -3,7 +3,7 @@
 
 1) Download the given apk file into an android device (running with lollipop and below).
 
-2) Install the apk. 
+2) Install the apk. If required you need to allow apps from untrusted sources to be installed. 
 
 3) Go to app settings and enable all the permissions for the app.
 
