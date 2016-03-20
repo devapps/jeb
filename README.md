@@ -38,5 +38,4 @@
 &nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/VSoft-Technologies/jeb/master/screenshots/9_jeb_Language_Options.png" width="180">
 &nbsp;&nbsp;
-&nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/VSoft-Technologies/jeb/master/screenshots/3_jeb_Landing_Screen_Hindi.png" width="180">
