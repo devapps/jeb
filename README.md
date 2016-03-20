@@ -18,3 +18,25 @@
       Username: test 
       Password: test
       
+<img src="https://raw.githubusercontent.com/VSoft-Technologies/jeb/master/screenshots/11_jeb_Signup.png" width="180">
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VSoft-Technologies/jeb/master/screenshots/1_jeb_Login_Screen.png" width="180">
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VSoft-Technologies/jeb/master/screenshots/2_jeb_Landing_Screen_English.png" width="180">
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VSoft-Technologies/jeb/master/screenshots/4_jeb_Pay_Screeen.png" width="180">
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VSoft-Technologies/jeb/master/screenshots/10_jeb_MPIN.png" width="180">
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VSoft-Technologies/jeb/master/screenshots/5_jeb_Collect_Screen.png" width="180">
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VSoft-Technologies/jeb/master/screenshots/6_jeb_Incoming_Approval_Screen.png" width="180">
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VSoft-Technologies/jeb/master/screenshots/7_jeb_History.png" width="180">
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VSoft-Technologies/jeb/master/screenshots/8_jeb_Language.png" width="180">
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VSoft-Technologies/jeb/master/screenshots/9_jeb_Language_Options.png" width="180">
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VSoft-Technologies/jeb/master/screenshots/3_jeb_Landing_Screen_Hindi.png" width="180">
