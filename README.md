@@ -3,7 +3,7 @@
 
 1) Download the given <a href="https://github.com/VSoft-Technologies/jeb/raw/master/apk/jeb.apk">apk</a> file into an android device (running with lollipop and below).
 
-2) Install the apk. If required you need to allow apps from untrusted sources to be installed. 
+2) Install the apk. If required you need to allow installtion of apps from untrusted sources. 
 
 3) Go to app settings and enable all the permissions for the app.
 
