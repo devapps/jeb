@@ -1,7 +1,7 @@
 # jeb
 ***jeb - a secure, convenient and easier way to make day to day transactions.***
 
-1) Download the given apk file into an android device (running with lollipop and below).
+1) Download the given <a href="https://github.com/VSoft-Technologies/jeb/raw/master/apk/jeb.apk">apk</a> file into an android device (running with lollipop and below).
 
 2) Install the apk. If required you need to allow apps from untrusted sources to be installed. 
 
